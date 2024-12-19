@@ -1,4 +1,4 @@
-const dictionary = ['earth', 'plane', 'brain', 'audio', 'horse', 'money', 'purse', ];
+const dictionary = ['earth', 'plane', 'brain', 'audio', 'horse', 'money', 'purse', 'alarm', 'beach', 'salad', 'saint', 'guard', 'grape', 'humor', 'paint', 'phone'];
 
 const state = {
     secret: dictionary[Math.floor(Math.random() * dictionary.length)],
@@ -97,7 +97,7 @@ const revealWord = (guess) => {
     if (isWinner) {
         alert('Congrats wordmaster! you have won!')
     } else if (isGameOver) {
-        alert(`Game over! Better luck next time! The word was ${state.secret}.`);
+        alert(`Game over! Better luck next time! The right word was ${state.secret}.`);
     }
 }
 
