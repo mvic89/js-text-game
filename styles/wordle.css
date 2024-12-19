@@ -70,7 +70,7 @@ h1, h3 {
 .restart-btn {
     padding: 1em 2.1em 1.1em;
     border-radius: 4px;
-    margin: 8px;
+    margin: 8px 8px 16px 8px;
     border: 2px solid white;
     background-color: black;
     color: white;
