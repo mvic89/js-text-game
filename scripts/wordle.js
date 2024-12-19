@@ -123,7 +123,7 @@ const startup = () => {
 
     registerKeyboardEvents();
 
-    console.log(state.secret);
+
 }
 
 startup();
