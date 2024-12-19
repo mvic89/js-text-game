@@ -66,3 +66,17 @@ h1, h3 {
 .green-color {
     color: var(--right);
 }
+
+.restart-btn {
+    padding: 1em 2.1em 1.1em;
+    border-radius: 4px;
+    margin: 8px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    font-weight: 800;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
