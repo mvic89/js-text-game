@@ -106,7 +106,7 @@ const isLetter = (key) => {
 }
 
 const addLetter = (letter) => {
-    if (state.currentCol === 5) return;
+    while (state.currentCol === 5) return;
     state.grid[state.currentRow][state.currentCol] = letter;
     state.currentCol++;
 }
